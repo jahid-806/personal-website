@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+section{
+    height: 700px;
+    padding: 2%;
+}
+h1{
+    font-size: 25px;
+    text-shadow: 1px 1px 3px black;
+}
+p{
+    color: dimgray;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+.name-highlited{
+    font-size: 45px;
+    color: crimson;
+    letter-spacing: 3px;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    font-weight: 900;
+    text-shadow: 2px 2px 6px rgb(219, 58, 58);
+}
+.link-button{
+    color: white;
+    font-size: 20px;
+    background-color: crimson;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 19px rgb(248, 124, 155);
+}
+.half-width{
+    width: 40%;
+    padding-left: 10%;
+    padding-top: 6%;
+    float: left;
+}
+section img{
+    width: 100%;
+}
+#text-section{
+   padding-top: 15%;
+}
+.top-banner{
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.width{
+    width: 40%;
+    padding-top: 10%;
+    padding-left: 8%;
+    float: left;
+}
+.biography{
+    color: black;
+    font-size: 40px;
+    padding-top: 5%;
+    text-shadow: 2px 2px 5px black;
+}
+.biography-bg{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+.latest-work{
+    height: 535px;
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+   background-size:cover;
+   padding-bottom: 2%;
+}
+.my-latest-work-header{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 6%;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 5%;
+}
+.img-work{
+    width:25%;
+    float: left;
+    box-shadow: 3px 3px 12px rgb(161, 158, 158);
+}
+.img-work:hover{
+    box-shadow: 3px 3px 20px rgb(88, 88, 88);
+}
+.img-work img{
+    height: 250px;
+}
+.img1{
+    margin-left: 12%;
+    margin-right: 1.7%;
+}
+.img2{
+    margin-right: 1.7%;
+}
+.footer-bg{
+    height: 600px;
+    margin-bottom: 5%;
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+}
+.text-align-of-bottom-section{
+    text-align: center;
+}
+.client-header{
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+h4{
+    color: dimgray;
+    margin-top: -1%;
+    padding-bottom: 1%;
+}
+.mail-box{
+    width: 40%;
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 8px;
+    padding-bottom: 2%;
+    color: white;
+    background-color: rgb(193, 44, 238);
+    box-shadow: 3px 3px 30px rgb(168, 12, 173);
+    background-image: linear-gradient(45deg,rgb(115, 18, 160),rgb(192, 71, 216));
+    cursor: pointer;
+}
+.mail{
+    font-size: 30px;
+    margin-top: -1%;
+    text-decoration: none;
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-top: -3%;
+}
